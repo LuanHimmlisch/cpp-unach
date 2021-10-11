@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        ".blade.php": "html",
+        ".html.twig": "html",
+        "iostream": "cpp"
+    }
+}
