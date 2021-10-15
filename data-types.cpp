@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    const int STUDENTS = 3;
-    const int COURSES = 3;
+    const int STUDENTS = 1;
+    const int COURSES = 1;
 
     string names[STUDENTS], lastnames[STUDENTS], years[STUDENTS], heights[STUDENTS], degrees[STUDENTS], grades[STUDENTS*COURSES];
 
@@ -22,7 +22,7 @@ int main()
         cout << "[Estudiante " + STUDENT + "] Inserta edad: ";
         getline(cin, years[i]);
 
-        cout << "[Estudiante " + STUDENT + "] Inserta tamaño: ";
+        cout << "[Estudiante " + STUDENT + "] Inserta altura: ";
         getline(cin, heights[i]);
 
         cout << "[Estudiante " + STUDENT + "] Inserta carrera: ";
@@ -45,7 +45,7 @@ int main()
 
         for (size_t e = 0; e < COURSES; e++)
         {
-            final_grade = final_grade + stof(grades[COURSE_BASE+0]);
+            final_grade = final_grade + stof(grades[COURSE_BASE+e]);
         }
 
         final_grade = final_grade/COURSES;
