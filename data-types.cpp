@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    const int STUDENTS = 1;
-    const int COURSES = 1;
+    const int STUDENTS = 3;
+    const int COURSES = 3;
 
     string names[STUDENTS], lastnames[STUDENTS], years[STUDENTS], heights[STUDENTS], degrees[STUDENTS], grades[STUDENTS*COURSES];
 
