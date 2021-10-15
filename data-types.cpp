@@ -51,7 +51,7 @@ int main()
         final_grade = final_grade/COURSES;
 
         cout << "\nHola " + names[i] + lastnames[i] + ", felices " + years[i] + " años. " << endl;
-        cout << "Cursas la carrera de " + grades[i] + " y tu promedio de calificaciones es " + to_string(final_grade) << endl;
+        cout << "Cursas la carrera de " + degrees[i] + " y tu promedio de calificaciones es " + to_string(final_grade) << endl;
 
     }
     
